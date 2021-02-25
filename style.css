@@ -16,6 +16,23 @@ h1{
     font-family: 'Chelsea Market', cursive;  
     padding-top: 12px;  
 } 
+button{
+    margin: 0 auto;
+    display: block;
+    background: #000;
+    color: #fff;
+    width: 45%;
+    height: 6%;
+    font-family: 'Gamja Flower', cursive;
+    font-size: 13px;
+    box-shadow: 3px 3px 0 0 #e4572e;
+    margin-top: -8px;
+    margin-bottom: 20px;
+}
+#text-display{
+    text-align: center;
+    margin-bottom: 15px;
+}
 h2{    
     font-size: 18px;
     margin-bottom: 0;
@@ -55,21 +72,28 @@ footer{
     width: 50%;
     margin: 0 auto;
     text-align: center;
+    
 }
 input{   
-    width: 85px;
+    width: 90%;
     margin: 10px;
     box-shadow: 3px 3px 0 0 #e4572e;
     border-radius: 3px;
+    font-family: 'Gamja Flower', cursive;
+    font-size: 11px;
 }
 .form{
     display: flex;
     margin: auto;
-    width: 45%;
+    width: 50%;
     padding: auto;
 }
 input[type="submit"]{
-    width: 50px;
-    padding: 3px;
-    font-size: 10px;
+    width: 65%;
+    padding: auto;
+    font-size: 12px;
+}
+
+#demo{
+    margin-bottom: 20px;
 }
